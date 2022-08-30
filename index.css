@@ -1,0 +1,78 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--primary);
+  }
+  
+  nav > ul {
+    display: none;
+  }
+  
+  nav > ul > li > a {
+    color: var(--text-color);
+  }
+  
+  main {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    border: 1px solid var(--primary-light);
+    padding: 1rem;
+    border-radius: 6px;
+  }
+  
+  form > h1 {
+    font-size: 2.5rem;
+  }
+  
+  form > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 70%;
+    gap: 1rem;
+  }
+  
+  form > ul > li > label {
+    font-size: 1.5rem;
+  }
+  
+  form > ul > li > input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--primary);
+    background-color: var(--input-bg);
+    border-radius: 6px;
+  }
+  
+  form > button {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  @media (min-width: 768px){
+    nav > ul {
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+    }
+  }
