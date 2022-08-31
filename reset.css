@@ -1,0 +1,42 @@
+header, h2, nav, ul, li, a, span, main, form, h1, label, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary: #0736B5;
+  --primary-light: #3A65D9;
+  --primary-dark: #04206E;
+  --gray-light: #616162;
+  --gray: #3E3E3E;
+  --gray-dark: #151515;
+  --black: #020102;
+  --white: #E4E4E4;
+  --body-bg: #FEFEFE;
+  --text-color: #151515;
+  --input-bg: #FEFEFE;
+}
+
+.dark-mode:root {
+  --primary: #5F05B5;
+  --primary-light: #8833D9;
+  --primary-dark: #39026E;
+  --gray-light: #616162;
+  --gray: #3E3E3E;
+  --gray-dark: #151515;
+  --black: #020102;
+  --white: #E4E4E4;
+  --body-bg: #151515;
+  --text-color: #E4E4E4; 
+  --input-bg: ##616162;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  width: 100vw;
+  height: 100vh;
+}
